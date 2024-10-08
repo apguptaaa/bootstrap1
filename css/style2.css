@@ -1,0 +1,99 @@
+/* .navbar{
+    background: #00000082 !important ; 
+}
+.navbar-nav li{
+    padding: 0 10px;
+} */
+.navbar {
+    background: #00000082 !important;
+}
+
+.navbar-nav li {
+    padding: 0 30px;
+}
+
+.navbar-nav li a {
+    color: #fff ;
+  padding: 13px;
+  margin: 0 -9px;
+  text-transform: uppercase;
+  
+  }
+  a:hover{
+    background-color: orange;
+    color: black;
+    font-size: 16px;
+  }
+  .franch{
+    border: 2px solid yellow;
+  }
+.weblogo{
+    width: 65px;
+}
+
+.moblogo{
+    display: none;
+}
+
+@media(max-width:768px)
+{
+    .moblogo{
+        display: block;
+
+    }
+    .weblogo{
+        display: none;
+    }
+    .navbar{
+        background: orange !important;
+    }
+}
+
+.img123{
+    width: 80%;
+}
+
+.a{
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: "prague";
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.b{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.c{
+    background: url("https://pn-paul.netlify.app/image/img%20background.jpg");
+    width: 100%;
+    padding: 150px 0;
+}
+
+.d{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+}
+
+.e{
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.icon{
+    font-size: 40px;
+    margin:10px 0;
+    padding: 6px;
+    color: orange;
+ }
+ 

@@ -1,0 +1,109 @@
+.navbar {
+    background: #00000082 !important;
+  }
+  
+  .navbar-nav li {
+    padding: 0 30px;
+  }
+  
+  .navbar-nav li a {
+    color: #fff ;
+  padding: 13px;
+  margin: 0 -9px;
+  
+  }
+  a:hover{
+    background-color: orange;
+    color: black;
+    font-size: 16px;
+  }
+  .franch{
+    border: 2px solid yellow;
+  }
+  .weblogo{
+    width: 65px;
+  }
+  
+  .moblogo{
+    display: none;
+  }
+  
+  @media(max-width:768px)
+  {
+    .moblogo{
+        display: block;
+  
+    }
+    .weblogo{
+        display: none;
+    }
+    .navbar{
+        background: orange !important;
+    }
+  }
+
+  /* cont1 */
+  .cont1 {
+    background: url('https://pn-paul.netlify.app/image/new-our-team.jpg');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ color: #fff;
+ 
+  }
+
+  .cont1 h1{
+    font-size: 65px;
+    font-family: serif;
+    font-weight: 400;
+  }
+  /* cont1 */
+
+  
+
+
+  .card1{
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+
+  .first{
+    background-image: url('https://pn-paul.netlify.app/image/B.R.-Sachdeva.jpg');
+
+  }
+  .second{
+    background:url('https://pn-paul.netlify.app/image/about-priyank.jpg') ;
+    
+
+  }
+  .three{
+    background: url('https://pn-paul.netlify.app/image/Sagar-Bajaj.jpg');
+  }
+  .four{
+    background: url('https://pn-paul.netlify.app/image/JAY-PHOTO-1-1.jpg');
+    background-size: cover;
+  }
+  .five{
+    background: url('https://pn-paul.netlify.app/image/vibhutiPR.jpg');
+    background-size: cover;
+  }
+
+
+
+  .icon{
+    font-size: 40px;
+    margin:6px -3px;
+    padding: 6px;
+    color: orange;
+ }

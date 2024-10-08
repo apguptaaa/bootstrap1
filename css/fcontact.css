@@ -1,0 +1,62 @@
+
+.navbar {
+    background: #00000082 !important;
+}
+
+.navbar-nav li {
+    padding: 0 30px;
+}
+
+.navbar-nav li a {
+    color: #fff ;
+  padding: 13px;
+  margin: 0 -9px;
+  
+  }
+  a:hover{
+    background-color: orange;
+    color: black;
+    font-size: 16px;
+  }
+  .franch{
+    border: 2px solid yellow;
+  }
+.weblogo{
+    width: 65px;
+}
+
+.moblogo{
+    display: none;
+}
+
+@media(max-width:768px)
+{
+    .moblogo{
+        display: block;
+
+    }
+    .weblogo{
+        display: none;
+    }
+    .navbar{
+        background: orange !important;
+    }
+}
+
+
+.cont1{
+    background: url('https://pn-paul.netlify.app/image/CONTACT-US.jpg');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ color: #fff;
+}
+.cont1 h1{
+    font-size: 65px;
+    font-family: serif;
+    font-weight: 400;
+}

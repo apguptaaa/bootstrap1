@@ -1,0 +1,142 @@
+.navbar {
+  background: #00000082 !important;
+}
+
+.navbar-nav li {
+  padding:0  30px;
+
+
+}
+
+.navbar-nav li a {
+  color: #fff ;
+padding: 13px;
+margin: 0 -9px;
+text-transform: uppercase;
+
+}
+a:hover{
+  background-color: orange;
+  color: black;
+  font-size: 16px;
+}
+.franch{
+  border: 2px solid yellow;
+}
+.weblogo{
+  width: 65px;
+}
+
+.moblogo{
+  display: none;
+}
+
+@media(max-width:768px)
+{
+  .moblogo{
+      display: block;
+
+  }
+  .weblogo{
+      display: none;
+  }
+  .navbar{
+      background: orange !important;
+  }
+}
+
+
+
+
+
+
+.ip {
+  background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url('https://pn-paul.netlify.app/image/ourimage.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.ip h1{
+  color: aliceblue;
+  font-size: 77px;
+  font-weight: 100px;
+  font-family: sans;
+  text-transform: uppercase;
+  
+}
+
+/* cont2 */
+.once{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.para2{
+  line-height: 1.9;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-size: 17px;
+  text-align: justify;
+  
+}
+.img2{
+  padding-left: 30px;
+  padding-top: 12px;
+}
+ /* cont3 */
+
+.cont3{
+  background: url('https://pn-paul.netlify.app/image/gamebanner.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 400px;
+margin-top: 40px;
+
+}
+.img3 {
+  /* width: 100%; */
+  padding: 150px 0;
+
+}
+.img3 p{
+  line-height: 2.8;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-left: 290px;
+  padding-right:290px ;
+}
+
+/* cont4 */
+.cont4{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+.cont4 h1{
+  padding-bottom: 30px;
+}
+.cont4 p{
+  line-height: 2.8;
+  text-align: justify;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding-left: 10px;
+  /* width: 100%; */
+  
+}
+
+/* cont5 */
+.cont5 p{
+  line-height: 1.9;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-size: 17px;
+  text-align: justify;
+  }
+
